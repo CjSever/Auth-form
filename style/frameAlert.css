@@ -1,0 +1,50 @@
+html, body {
+    background-color: rgb(49, 63, 61);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 2vmax;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.Frame__alert {
+    background-color: rgba(90, 46, 46, 0.548);
+    width: 80%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+.frame__title{
+    font-size: 1.5vmax;
+    color: white;
+}
+
+.wrap__title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.wrap__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.frame__text{
+    color: red;
+}

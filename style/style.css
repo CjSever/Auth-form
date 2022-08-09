@@ -1,0 +1,108 @@
+html, body {
+    height: 100%;
+    width: 100%;    
+    margin: 0px;
+    padding: 0px;
+    font-weight: 100;
+
+
+}
+
+.wrapper {
+    background-color: black;
+    height: 100%;
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 70px 20px rgba(0, 255, 213, 0.11);
+    background-image: url(/src/img/2I6M.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 150px 100px 150px 100px;
+    background-color: rgba(128, 128, 128, 0.271);
+    box-shadow: 10px 5px 60px 75px rgba(139, 139, 139, 0.251);
+    width: 30vw;
+    height: 40vh;
+    transition: 1s;
+    
+}
+
+form:hover {
+    background-color: rgb(113, 150, 144);
+    border-radius: 100px 150px 100px 150px;
+    box-shadow: 5px 10px 70px 15px rgb(153, 194, 187);
+
+}
+
+form:hover > .form__title {
+    color: black;
+}
+
+.form__title{
+    font-size: 2vmax;
+    transition: 1s;
+    color: white;
+}
+
+.form__enter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    height: 50%;
+}
+.wrap__visible_password{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 30%;
+    width: 100%;
+}
+
+.form__item {
+    padding: 0px;  
+    text-align: center;
+    font-size: 1.5vmax;
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+    height: 20%;
+    text-shadow: 5px 5px 5px rgb(0, 119, 255);
+}
+
+#pass__choose_visible{
+    width: 20vmax;
+    height: 20vmax;
+}
+
+.form__text{
+    text-align: center;
+    width: 100%;
+    font-size: 1vmax;  
+}
+.form__button {
+    color: grey;
+    opacity: 0.7;
+    font-size: 1.5vmax;
+    border-radius: 25px;
+    border: none;
+    width: 40%;
+    height: 10%;
+    transition: 0.5s;
+}
+
+.form__button:hover {
+    font-weight: 700;
+    color: rgb(25, 107, 83);
+    opacity: 1;
+    font-size: 1.6vmax;
+}
