@@ -16,7 +16,7 @@ html, body {
     justify-content: center;
     align-items: center;
     box-shadow: inset 0px 0px 70px 20px rgba(0, 255, 213, 0.11);
-    background-image: url(~/src/img/2I6M.gif);
+    background-image: url(../src/img/2I6M.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
